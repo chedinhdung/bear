@@ -21,17 +21,17 @@ body {
 
 .heart {
     position: absolute;
-    top: 28%;
+    top: 25%;
     left: 50%;
     transform: translateX(-50%);
-    width: 85%;
-    max-width: 420px;
+    width: 95%;
+    max-width: 480px;
     animation: beatHeart 1.5s ease-in-out infinite;
 }
 
 @keyframes beatHeart {
     0%   { transform: translateX(-50%) scale(1); }
-    50%  { transform: translateX(-50%) scale(1.1); }
+    50%  { transform: translateX(-50%) scale(1.12); }
     100% { transform: translateX(-50%) scale(1); }
 }
 
@@ -41,18 +41,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 70%;
+    width: 80%;
 }
 
 .date-line {
-    font-size: 28px;
+    font-size: 34px;
     font-weight: bold;
     font-style: italic;
 }
 
 .days {
-    margin-top: 12px;
-    font-size: 26px;
+    margin-top: 14px;
+    font-size: 32px;
     font-weight: bold;
 }
 
@@ -67,11 +67,11 @@ body {
 }
 
 .bear-left {
-    left: -25%;
+    left: -40%;
 }
 
 .bear-right {
-    right: -25%;
+    right: -40%;
 }
 
 @keyframes fadeBear {
