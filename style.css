@@ -16,18 +16,18 @@ body {
 
 .container {
     width: 100%;
-    max-width: 500px;
+    max-width: 420px;
     height: 100vh;
     position: relative;
 }
 
 .heart {
     position: absolute;
-    top: 8%;
+    top: 12%;
     left: 50%;
     transform: translateX(-50%);
-    width: 70%;
-    max-width: 360px;
+    width: 55%;
+    max-width: 280px;
     animation: beatHeart 1.5s ease-in-out infinite;
 }
 
@@ -40,18 +40,18 @@ body {
 .bear-left,
 .bear-right {
     position: absolute;
-    bottom: 8%;
-    width: 38%;
-    max-width: 190px;
+    bottom: 12%;
+    width: 32%;
+    max-width: 150px;
     animation: fadeBear 2s ease forwards;
 }
 
 .bear-left {
-    left: 5%;
+    left: 0;
 }
 
 .bear-right {
-    right: 5%;
+    right: 0;
 }
 
 @keyframes fadeBear {
@@ -67,8 +67,10 @@ body {
 
 .date-box {
     position: absolute;
-    bottom: 28%;
-    width: 100%;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
     text-align: center;
     font-size: 22px;
     font-weight: bold;
@@ -79,28 +81,28 @@ body {
 }
 
 .date-box span {
-    margin: 0 10px;
+    margin: 0 8px;
 }
 
 .arrow {
     color: #9dbb88;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .days {
     display: block;
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 18px;
 }
 
 @keyframes fadeText {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translate(-50%, 20px);
     }
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translate(-50%, 0);
     }
 }
 
